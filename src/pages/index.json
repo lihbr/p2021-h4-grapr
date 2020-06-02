@@ -1,0 +1,149 @@
+{
+  "meta_title": "",
+  "meta_description": "",
+  "meta_image": {
+    "url": "",
+    "twitter_variant": {
+      "url": ""
+    }
+  },
+  "sections": {
+    "hero": {
+      "title": "Easy, tailor-made,<br />user centric",
+      "description": "<strong>Externalize</strong> your <strong>UX research</strong> process.<br />Win <strong>time</strong>, <strong>money</strong> & <strong>insights</strong>.",
+      "actions": [
+        {
+          "label": "I'm a company",
+          "link": {
+            "href": "",
+            "blank": false
+          },
+          "outlined": false
+        },
+        {
+          "label": "I'm an interviewer",
+          "link": {
+            "href": "",
+            "blank": false
+          },
+          "outlined": true
+        }
+      ],
+      "img": {
+        "src": "/assets/img/hero.png",
+        "alt": "Hero"
+      }
+    },
+    "background": {
+      "img": {
+        "src": "/assets/img/background.png",
+        "alt": "Background"
+      }
+    },
+    "advantage": {
+      "img": {
+        "src": "/assets/img/advantage.png",
+        "alt": "Advantage"
+      },
+      "title": "Know your<br />customer",
+      "description": "We create a <strong>tailor-made</strong> interview guide, based on your context of research, <strong>identified targets</strong> and markets informations."
+    },
+    "features": {
+      "title": "Keep it simple.",
+      "features": [
+        {
+          "img": {
+            "src": "/assets/img/request.png",
+            "alt": "Request"
+          },
+          "title": "Request",
+          "description": "Create quickly user-center user researches in 5 steps."
+        },
+        {
+          "img": {
+            "src": "/assets/img/process.png",
+            "alt": "Process"
+          },
+          "title": "Process",
+          "description": "We mission the best interviewers profiles for your study."
+        },
+        {
+          "img": {
+            "src": "/assets/img/receive.png",
+            "alt": "Receive"
+          },
+          "title": "Receive",
+          "description": "Receive the interviews results in less than 2 weeks."
+        }
+      ]
+    },
+    "path": {
+      "waypoints": [
+        {
+          "title": "Custom Campaigns",
+          "description": "We create a tailor-made interview guide, based on your context of research, identified targets and markets informations."
+        },
+        {
+          "title": "WYNIWYG",
+          "description": "<em>“What you need is what you get”</em><br />Select a solution that suit you needs : Need for global insights on the market or need for precise and defined interviews to secure an idea?"
+        },
+        {
+          "title": "Sourcing & Profiling",
+          "description": "Grapr mission is to source the most diversified and best profiles of interviewers and to know which interviewer can help you in your user research."
+        },
+        {
+          "title": "User Research & Interviews",
+          "description": "Following your guidelines, our UX specialists will work on the interviews, the empathy maps, the verbatims and the experience map to provide you with the best recommandations."
+        },
+        {
+          "title": "Final Material Delivery",
+          "description": "We deliver the final material, related to your demand and the solution you selected. You receive a streamline formatted document."
+        },
+        {
+          "title": "External Check",
+          "description": "Every work we deliver is verified by external UX specialists : it aims to take a step back to avoid any bias and to deliver the best final material possible."
+        }
+      ]
+    },
+    "why": {
+      "headline": "Why us?",
+      "title": "Let us convince you.",
+      "cards": [
+        {
+          "title": "UX Specialists",
+          "description": "Get access to the best<br />professionnals in the market.",
+          "color": "blue",
+          "img": {
+            "src": "/assets/img/uxSpecialists.png",
+            "alt": "UX Specialists"
+          }
+        },
+        {
+          "title": "Ease-of-use",
+          "description": "Simple and adaptable,<br />our solution is user-centric.",
+          "color": "orange",
+          "img": {
+            "src": "/assets/img/easeOfUse.png",
+            "alt": "Ease-of-use"
+          }
+        },
+        {
+          "title": "Streamlined Contents",
+          "description": "All delivery are made for easy insights vision and extraction.",
+          "color": "pink",
+          "img": {
+            "src": "/assets/img/streamlinedContents.png",
+            "alt": "Streamlined Contents"
+          }
+        }
+      ]
+    },
+    "newsletter": {
+      "headline": "You believe only what you see?",
+      "title": "Receive a case study<br />example by email",
+      "placeholder": "Email address",
+      "label": "Send!",
+      "success": "Thank you! We'll get back to you shortly."
+    }
+  }
+}

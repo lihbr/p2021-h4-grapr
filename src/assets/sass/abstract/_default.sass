@@ -1,0 +1,19 @@
+// Nothing yet, and it's probably better to write a Tailwind plugin anyway...
+.soon
+  @apply relative cursor-default
+
+  &::before
+    @apply block absolute pointer-events-none transition-opacity-transform duration-base ease-base opacity-0 px-2 py-1 border-2 border-green font-semibold text-m text-grey-400 bg-white
+    content: "Soon..."
+    line-height: 19px
+    letter-spacing: .02em
+    will-change: opacity, transform
+    border-radius: 18px
+    bottom: -40px
+    left: 50%
+    transform: translate(-50%, 4px)
+    z-index: 1
+
+  &:hover::before
+    @apply opacity-100
+    transform: translate(-50%, 0px)
