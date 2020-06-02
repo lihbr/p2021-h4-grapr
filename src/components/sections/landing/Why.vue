@@ -72,7 +72,6 @@ export default {
       bottom: -15px
       z-index: -1
 
-    /* purgecss start ignore */
 
     &--blue
       background: linear-gradient(141.72deg, #709BFF 21.63%, #5B8AF5 87.24%)
@@ -99,6 +98,4 @@ export default {
         opacity: 0.6
         filter: blur(100px)
         border-radius: 40px
-
-    /* purgecss end ignore */
 </style>

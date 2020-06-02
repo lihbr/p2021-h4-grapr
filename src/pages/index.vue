@@ -46,7 +46,7 @@ export default {
   head() {
     const { meta_title, meta_description, meta_image } = this.data;
     return this.$buildHead({
-      title: meta_title || "💐",
+      title: meta_title || "🎨",
       description: meta_description,
       metaImage: {
         og: undefined /* meta_image.url */,

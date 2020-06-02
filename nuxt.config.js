@@ -77,7 +77,12 @@ module.exports = async () => {
       ],
       "~/modules/cache",
       "~/modules/statistics",
-      "~/modules/tailwindcss",
+      [
+        "~/modules/tailwindcss",
+        {
+          whitelistPatterns: [/^card--.*/]
+        }
+      ],
       "@nuxtjs/global-components",
       "@nuxtjs/style-resources",
       "@nuxtjs/sitemap",

@@ -2,41 +2,43 @@
 <template>
   <div class="landingPath">
     <container>
-      <div class="card">
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <div class="heading-h3" v-html="data.waypoints[0].title" />
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <p v-html="data.waypoints[0].description" />
-      </div>
-      <div class="card">
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <div class="heading-h3" v-html="data.waypoints[1].title" />
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <p v-html="data.waypoints[1].description" />
-      </div>
-      <div class="card card--left">
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <div class="heading-h3" v-html="data.waypoints[2].title" />
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <p v-html="data.waypoints[2].description" />
-      </div>
-      <div class="card card--left">
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <div class="heading-h3" v-html="data.waypoints[3].title" />
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <p v-html="data.waypoints[3].description" />
-      </div>
-      <div class="card">
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <div class="heading-h3" v-html="data.waypoints[4].title" />
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <p v-html="data.waypoints[4].description" />
-      </div>
-      <div class="card">
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <div class="heading-h3" v-html="data.waypoints[5].title" />
-        <!-- eslint-disable-next-line vue/no-v-html -->
-        <p v-html="data.waypoints[5].description" />
+      <div class="sm:px-16">
+        <div class="card">
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <div class="heading-h3" v-html="data.waypoints[0].title" />
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <p v-html="data.waypoints[0].description" />
+        </div>
+        <div class="card">
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <div class="heading-h3" v-html="data.waypoints[1].title" />
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <p v-html="data.waypoints[1].description" />
+        </div>
+        <div class="card card--left">
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <div class="heading-h3" v-html="data.waypoints[2].title" />
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <p v-html="data.waypoints[2].description" />
+        </div>
+        <div class="card card--left">
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <div class="heading-h3" v-html="data.waypoints[3].title" />
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <p v-html="data.waypoints[3].description" />
+        </div>
+        <div class="card">
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <div class="heading-h3" v-html="data.waypoints[4].title" />
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <p v-html="data.waypoints[4].description" />
+        </div>
+        <div class="card">
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <div class="heading-h3" v-html="data.waypoints[5].title" />
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <p v-html="data.waypoints[5].description" />
+        </div>
       </div>
     </container>
   </div>
@@ -66,7 +68,7 @@ export default {
     border-radius: 30px
 
     @screen lg
-      @apply w-50p
+      @apply w-60p
 
     &--left
       @apply py-8 px-16 ml-auto
