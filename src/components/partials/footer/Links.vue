@@ -31,7 +31,7 @@ export default {
         {
           title: "Product Hunt",
           link: {
-            href: "https://www.producthunt.com/",
+            href: "https://www.producthunt.com/posts/grapr",
             blank: true
           }
         },
