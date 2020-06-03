@@ -1,7 +1,7 @@
 <!-- HEALTH:UNKNOWN landing-background -->
 <template>
   <div class="landingBackground hidden sm:block pointer-events-none">
-    <img :src="data.img.src" :alt="data.img.alt" />
+    <img class="w-full" :src="data.img.src" :alt="data.img.alt" />
   </div>
 </template>
 
