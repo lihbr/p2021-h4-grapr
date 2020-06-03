@@ -3,7 +3,7 @@
   "version": "2.5.0",
   "description": "Find relevant insights to boost your product quality",
   "private": true,
-  "author": "lihbr",
+  "author": "lihbr <hello@lihbr.com> (https://lihbr.com)",
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "dev": "nuxt",
