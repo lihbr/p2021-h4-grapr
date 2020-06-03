@@ -9,13 +9,13 @@
           class="w-col-3 xl:w-col-4 max-w-full mx-auto"
         />
         <div class="w-col-5 max-w-full mx-auto">
-          <!-- eslint-disable-next-line vue/no-v-html -->
+          <!-- eslint-disable vue/no-v-html -->
           <h2
             class="mb-8 text-6xl sm:text-10xl font-extrabold"
             v-html="data.title"
           />
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <p class="heading-h3" v-html="data.description" />
+          <p class="heading-h3 text-grey-400" v-html="data.description" />
         </div>
       </div>
     </container>
