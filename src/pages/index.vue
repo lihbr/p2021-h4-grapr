@@ -6,7 +6,7 @@
         <landing-hero :data="data.sections.hero" />
         <landing-background :data="data.sections.background" />
         <landing-advantage :data="data.sections.advantage" class="mb-32" />
-        <landing-features :data="data.sections.features" class="mb-8" />
+        <landing-features :data="data.sections.features" />
         <landing-path :data="data.sections.path" />
       </div>
       <div class="bgSwitch" />

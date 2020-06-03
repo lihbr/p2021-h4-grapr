@@ -2,42 +2,63 @@
 <template>
   <div class="landingPath">
     <container>
-      <div class="sm:px-16">
-        <div class="card">
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <div class="heading-h3" v-html="data.waypoints[0].title" />
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <p v-html="data.waypoints[0].description" />
+      <div class="sm:px-16 pt-col-2">
+        <div class="section">
+          <div class="img">
+            <img :src="data.imgs[0].src" :alt="data.imgs[0].alt" />
+          </div>
+          <div class="content">
+            <div class="card">
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <div class="heading-h3" v-html="data.waypoints[0].title" />
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <p v-html="data.waypoints[0].description" />
+            </div>
+            <div class="card mt-12">
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <div class="heading-h3" v-html="data.waypoints[1].title" />
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <p v-html="data.waypoints[1].description" />
+            </div>
+          </div>
         </div>
-        <div class="card">
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <div class="heading-h3" v-html="data.waypoints[1].title" />
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <p v-html="data.waypoints[1].description" />
+        <div class="section section--reversed mt-40">
+          <div class="img">
+            <img :src="data.imgs[1].src" :alt="data.imgs[1].alt" />
+          </div>
+          <div class="content">
+            <div class="card">
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <div class="heading-h3" v-html="data.waypoints[2].title" />
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <p v-html="data.waypoints[2].description" />
+            </div>
+            <div class="card mt-12">
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <div class="heading-h3" v-html="data.waypoints[3].title" />
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <p v-html="data.waypoints[3].description" />
+            </div>
+          </div>
         </div>
-        <div class="card card--left">
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <div class="heading-h3" v-html="data.waypoints[2].title" />
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <p v-html="data.waypoints[2].description" />
-        </div>
-        <div class="card card--left">
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <div class="heading-h3" v-html="data.waypoints[3].title" />
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <p v-html="data.waypoints[3].description" />
-        </div>
-        <div class="card">
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <div class="heading-h3" v-html="data.waypoints[4].title" />
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <p v-html="data.waypoints[4].description" />
-        </div>
-        <div class="card">
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <div class="heading-h3" v-html="data.waypoints[5].title" />
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <p v-html="data.waypoints[5].description" />
+        <div class="section mt-40">
+          <div class="img">
+            <img :src="data.imgs[2].src" :alt="data.imgs[2].alt" />
+          </div>
+          <div class="content">
+            <div class="card">
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <div class="heading-h3" v-html="data.waypoints[4].title" />
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <p v-html="data.waypoints[4].description" />
+            </div>
+            <div class="card mt-12">
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <div class="heading-h3" v-html="data.waypoints[5].title" />
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <p v-html="data.waypoints[5].description" />
+            </div>
+          </div>
         </div>
       </div>
     </container>
@@ -62,14 +83,45 @@ export default {
 
 <style lang="sass" scoped>
 .landingPath
+  .container
+    @screen lg
+      background: url("/assets/img/path.svg")
+      background-repeat: no-repeat
+      background-position: center
+      background-size: contain
+
   .card
-    @apply bg-white pt-8 pr-16 pb-6 pl-20 mt-16
+    @apply bg-white py-8 px-4
     box-shadow: -1px -1px 23px rgba(10, 52, 255, 0.08)
     border-radius: 30px
 
     @screen lg
-      @apply w-60p
+      @apply pt-8 pr-16 pb-6 pl-20
 
-    &--left
-      @apply py-8 px-16 ml-auto
+  .section
+    @screen lg
+      @apply flex flex-row-reverse items-center justify-between
+
+    .content
+      @screen lg
+        width: 52%
+
+    .img
+      img
+        @apply mx-auto mb-16
+        max-height: 360px
+
+        @screen lg
+          @apply mt-0
+
+    &--reversed
+      @screen lg
+        @apply flex-row
+
+      .img
+        @apply flex-1
+
+      .card
+        @screen lg
+          @apply py-8 px-16
 </style>

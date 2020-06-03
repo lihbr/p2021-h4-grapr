@@ -1,5 +1,5 @@
 {
-  "meta_title": "",
+  "meta_title": "UX Research",
   "meta_description": "",
   "meta_image": {
     "url": "",
@@ -102,6 +102,20 @@
         {
           "title": "External Check",
           "description": "Every work we deliver is verified by external UX specialists : it aims to take a step back to avoid any bias and to deliver the best final material possible."
+        }
+      ],
+      "imgs": [
+        {
+          "src": "/assets/img/path1.png",
+          "alt": "Path 1"
+        },
+        {
+          "src": "/assets/img/path2.png",
+          "alt": "Path 2"
+        },
+        {
+          "src": "/assets/img/path3.png",
+          "alt": "Path 3"
         }
       ]
     },
