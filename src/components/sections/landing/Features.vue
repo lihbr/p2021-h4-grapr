@@ -12,7 +12,7 @@
             class="px-4 py-12 md:py-4 flex-1 flex flex-col xl:flex-row justify-between text-center md:text-left"
           >
             <img
-              class="w-32 h-32 object-contain self-center xl:mx-auto"
+              class="w-32 h-32 object-contain self-center xl:mx-auto pointer-events-none"
               :src="item.img.src"
               :alt="item.img.alt"
             />

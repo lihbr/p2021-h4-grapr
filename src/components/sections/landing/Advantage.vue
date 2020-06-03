@@ -6,7 +6,7 @@
         <img
           :src="data.img.src"
           :alt="data.img.alt"
-          class="w-col-3 xl:w-col-4 max-w-full mx-auto"
+          class="w-col-3 xl:w-col-4 max-w-full mx-auto pointer-events-none"
         />
         <div class="w-col-5 max-w-full mx-auto">
           <!-- eslint-disable vue/no-v-html -->

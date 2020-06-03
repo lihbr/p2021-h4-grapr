@@ -23,7 +23,7 @@
                 <img
                   :src="item.img.src"
                   :alt="item.img.alt"
-                  class="w-24 sm:w-32 mx-auto"
+                  class="w-24 sm:w-32 mx-auto pointer-events-none"
                 />
                 <!-- eslint-disable-next-line vue/no-v-html -->
                 <div class="heading-h3" v-html="item.title" />

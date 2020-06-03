@@ -110,7 +110,7 @@ export default {
         width: 52%
 
     .img
-      @apply pl-8
+      @apply pl-8 pointer-events-none
 
       img
         @apply mx-auto mb-16

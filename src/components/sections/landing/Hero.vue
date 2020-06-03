@@ -28,7 +28,7 @@
           </li>
         </ul>
         <img
-          class="hidden lg:block absolute top-10p right-0 h-full"
+          class="hidden lg:block absolute top-10p right-0 h-full pointer-events-none"
           :src="data.img.src"
           :alt="data.img.alt"
         />
