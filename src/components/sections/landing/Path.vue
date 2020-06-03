@@ -98,6 +98,9 @@ export default {
     @screen lg
       @apply pt-8 pr-16 pb-6 pl-20
 
+    .heading-h3
+      @apply mb-5
+
   .section
     @screen lg
       @apply flex flex-row-reverse items-center justify-between
