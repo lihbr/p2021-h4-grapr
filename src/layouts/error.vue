@@ -1,11 +1,15 @@
 <!-- HEALTH:UNKNOWN __page__error -->
 <template>
   <div class="__page__error">
-    <h1>{{ code }}</h1>
-    <h2>{{ message | uc_first }}</h2>
-    <smart-link class="underline" to="/" :external="$route.path === '/'">
-      Home page
-    </smart-link>
+    <container>
+      <div class="text-center mt-col">
+        <h1>{{ code }}</h1>
+        <h2>{{ message | uc_first }}</h2>
+        <smart-link class="underline" href="/" :external="$route.path === '/'">
+          Home page
+        </smart-link>
+      </div>
+    </container>
   </div>
 </template>
 
