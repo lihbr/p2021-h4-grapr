@@ -2,7 +2,7 @@
 <template>
   <div class="landingPath">
     <container>
-      <div class="sm:px-16 pt-col-2">
+      <div class="sm:px-20 md:px-24 pt-col-2">
         <div class="section">
           <div class="img">
             <img :src="data.imgs[0].src" :alt="data.imgs[0].alt" />
@@ -110,6 +110,8 @@ export default {
         width: 52%
 
     .img
+      @apply pl-8
+
       img
         @apply mx-auto mb-16
         max-height: 360px
@@ -122,7 +124,7 @@ export default {
         @apply flex-row
 
       .img
-        @apply flex-1
+        @apply flex-1 pl-0 pr-8
 
       .card
         @screen lg

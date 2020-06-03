@@ -2,7 +2,7 @@
 <template>
   <div class="landingHero">
     <container>
-      <section class="sm:px-16 min-h-60vh pt-20 sm:pt-40 relative">
+      <section class="sm:px-20 md:px-24 min-h-60vh pt-20 sm:pt-40 relative">
         <!-- eslint-disable vue/no-v-html -->
         <h1
           class="font-extrabold text-6xl sm:text-7xl mb-8"
